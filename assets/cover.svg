@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 470" role="img" aria-labelledby="title desc">
+  <title id="title">Yohanes Anthony Saputra, Open Lab</title>
+  <desc id="desc">Lavender and lime cover with an exploded diagram of a circuit board, processing chip, and browser window.</desc>
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#211844" opacity=".14"/>
+    </pattern>
+    <linearGradient id="paper" x2="100%" y2="100%">
+      <stop stop-color="#EAE4FF"/><stop offset="1" stop-color="#D8CBFF"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1040" height="470" rx="26"/></clipPath>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .travel { animation: travel 3.4s ease-out both; }
+    }
+    @keyframes travel {
+      0% { stroke-dashoffset: 150; opacity: 0; }
+      20% { opacity: 1; }
+      100% { stroke-dashoffset: 0; opacity: .85; }
+    }
+  </style>
+  <g clip-path="url(#frame)">
+    <rect width="1040" height="470" fill="url(#paper)"/>
+    <path d="M594 65H1002V403H594Z" fill="url(#dots)"/>
+    <path d="M36 65H1004M36 403H1004M574 82V387" stroke="#211844" stroke-opacity=".26"/>
+    <g fill="#211844" font-family="'Courier New', monospace" font-size="17" font-weight="700" letter-spacing="2">
+      <text x="42" y="41">ANTHONY / OPEN LAB</text>
+      <text x="998" y="41" text-anchor="end">PROJECT INDEX</text>
+      <text x="42" y="441">UNIVERSITAS GADJAH MADA</text>
+      <text x="998" y="441" text-anchor="end">@ANTHONYS051105</text>
+    </g>
+
+    <text x="44" y="125" fill="#392D60" font-family="'Courier New', monospace" font-size="20" font-weight="700" letter-spacing="5">YOHANES</text>
+    <g fill="#211844" font-family="Arial, 'DejaVu Sans', sans-serif" font-size="111" font-weight="800" letter-spacing="-5">
+      <text x="38" y="224">Anthony</text>
+      <text x="38" y="323">Saputra.</text>
+    </g>
+    <rect x="43" y="349" width="298" height="31" rx="5" fill="#DFFF70" stroke="#342457"/>
+    <text x="54" y="370" fill="#211844" font-family="'Courier New', monospace" font-size="15" font-weight="700" letter-spacing="1.3">EMBEDDED / WEB / ANDROID</text>
+
+    <g stroke="#493777" stroke-width="1" stroke-dasharray="4 5" opacity=".7">
+      <path d="M614 174V323M763 212V364M904 147V300"/>
+      <path d="M614 174L763 212L904 147M614 323L763 364L904 300" fill="none"/>
+    </g>
+    <g stroke="#211844" stroke-width="2" stroke-linejoin="round">
+      <path d="M611 308L756 244L907 284V303L764 368L611 327Z" fill="#392D60"/>
+      <path d="M611 308L756 244L907 284L764 348Z" fill="#B39CEF"/>
+      <path d="M764 348V368" fill="none"/>
+      <path d="M634 309L757 255L882 287L760 338Z" fill="none" stroke="#66518D"/>
+      <path d="M648 310L679 318L706 305L730 311M668 294L699 301L724 289M800 316L784 312L831 291L858 298M798 272L786 278L819 287" fill="none" stroke="#392D60"/>
+      <path d="M724 300L755 286L791 296L760 310Z" fill="#DFFF70"/>
+      <circle cx="648" cy="310" r="4" fill="#DFFF70"/><circle cx="858" cy="298" r="4" fill="#DFFF70"/>
+    </g>
+    <g stroke="#211844" stroke-width="2" stroke-linejoin="round">
+      <path d="M672 239L753 202L850 228V241L769 278L672 252Z" fill="#5D4B8C"/>
+      <path d="M672 239L753 202L850 228L769 265Z" fill="#F2EDFF"/>
+      <path d="M769 265V278" fill="none"/>
+      <path d="M723 234L755 220L798 232L765 247Z" fill="#211844"/>
+      <path d="M739 230L729 227M748 226L738 223M768 224L778 220M779 227L789 223M770 245L780 249M780 241L790 245M743 240L731 245M753 243L741 248" fill="none" stroke-width="1.5"/>
+    </g>
+    <g stroke="#211844" stroke-width="2" stroke-linejoin="round">
+      <path d="M612 158L755 93L905 134V149L763 215L612 173Z" fill="#372A5A"/>
+      <path d="M612 158L755 93L905 134L763 199Z" fill="#FAF7FF"/>
+      <path d="M763 199V215M635 148L785 189" fill="none"/>
+      <circle cx="648" cy="149" r="2" fill="#211844"/><circle cx="657" cy="151" r="2" fill="#211844"/>
+      <path d="M664 147L750 108L864 139L778 178Z" fill="#ECE3FF" stroke="#A18ACA" stroke-width="1"/>
+      <path d="M685 146L724 156L746 146L762 150L780 129L804 136L827 126" fill="none" stroke="#31234F" stroke-width="3" stroke-linecap="round"/>
+      <path class="travel" d="M685 146L724 156L746 146L762 150L780 129L804 136L827 126" fill="none" stroke="#93B725" stroke-width="3" stroke-linecap="round" stroke-dasharray="150" opacity=".85"/>
+    </g>
+    <g fill="#392D60" font-family="'Courier New', monospace" font-size="12" font-weight="700" letter-spacing=".6">
+      <text x="997" y="130" text-anchor="end">INTERFACE</text>
+      <text x="997" y="232" text-anchor="end">PROCESSING</text>
+      <text x="997" y="310" text-anchor="end">HARDWARE</text>
+    </g>
+    <path d="M919 133H928M862 231H908M919 306H928" stroke="#584778"/>
+  </g>
+  <rect x="1" y="1" width="1038" height="468" rx="25" fill="none" stroke="#8D79BB" stroke-width="2"/>
+</svg>

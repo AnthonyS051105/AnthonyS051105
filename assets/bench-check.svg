@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 232" role="img" aria-labelledby="title desc">
+  <title id="title">Bench check 01. From 359 degrees to 001 degrees.</title>
+  <desc id="desc">A purple instrument panel shows the antenna tracker's current and target headings beside a compass dial.</desc>
+  <defs>
+    <pattern id="dot-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#EAE4FF" opacity=".18"/>
+    </pattern>
+    <clipPath id="dial-window">
+      <rect x="708" y="20" width="310" height="192" rx="13"/>
+    </clipPath>
+    <path id="tick" d="M0 -72V-62" stroke="#B39CEF" stroke-width="2" stroke-linecap="round"/>
+  </defs>
+
+  <rect x="1" y="1" width="1038" height="230" rx="23" fill="#211844" stroke="#8D79BB" stroke-width="2"/>
+  <rect x="708" y="20" width="310" height="192" rx="13" fill="#291F50" stroke="#66518D"/>
+  <g clip-path="url(#dial-window)">
+    <rect x="708" y="20" width="310" height="192" fill="url(#dot-grid)"/>
+    <circle cx="863" cy="130" r="72" fill="#211844" stroke="#7461A5" stroke-width="2"/>
+    <circle cx="863" cy="130" r="48" fill="none" stroke="#66518D"/>
+    <path d="M746 130H980M863 25V212" fill="none" stroke="#7461A5" stroke-dasharray="3 6"/>
+    <g transform="translate(863 130)">
+      <use href="#tick"/><use href="#tick" transform="rotate(30)"/><use href="#tick" transform="rotate(60)"/>
+      <use href="#tick" transform="rotate(90)"/><use href="#tick" transform="rotate(120)"/><use href="#tick" transform="rotate(150)"/>
+      <use href="#tick" transform="rotate(180)"/><use href="#tick" transform="rotate(210)"/><use href="#tick" transform="rotate(240)"/>
+      <use href="#tick" transform="rotate(270)"/><use href="#tick" transform="rotate(300)"/><use href="#tick" transform="rotate(330)"/>
+    </g>
+    <path d="M863 80L876 132L863 158L850 132Z" fill="#B39CEF"/>
+    <path d="M863 80L876 132L863 126L850 132Z" fill="#DFFF70"/>
+    <circle cx="863" cy="130" r="6" fill="#211844" stroke="#EAE4FF" stroke-width="2"/>
+    <text x="863" y="49" text-anchor="middle" fill="#DFFF70" font-family="monospace" font-size="19" font-weight="700">N</text>
+  </g>
+
+  <g font-family="monospace" font-weight="700" letter-spacing="1.6">
+    <text x="37" y="47" fill="#DFFF70" font-size="22">OPEN LAB / BENCH CHECK 01</text>
+    <text x="39" y="190" fill="#C9BDF2" font-size="20">CURRENT HEADING</text>
+    <text x="424" y="190" fill="#C9BDF2" font-size="20">TARGET HEADING</text>
+  </g>
+  <path d="M37 65H667" stroke="#66518D"/>
+  <g font-family="Arial, 'DejaVu Sans', sans-serif" font-size="83" font-weight="700" letter-spacing="-4">
+    <text x="34" y="154" fill="#FAF7FF">359°</text>
+    <text x="415" y="154" fill="#DFFF70">001°</text>
+  </g>
+  <path d="M259 127H363M351 114L365 127L351 140" fill="none" stroke="#B39CEF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
