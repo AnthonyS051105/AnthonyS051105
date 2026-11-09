@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 300" role="img" aria-labelledby="title desc">
+  <title id="title">Open Lab's antenna tracker</title>
+  <desc id="desc">A small purple ground station has a lime antenna dish, a friendly OLED display, and a radio link to an aircraft.</desc>
+  <defs>
+    <pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#CCBDFB" opacity=".25"/>
+    </pattern>
+    <linearGradient id="ground" x2="0" y2="100%">
+      <stop stop-color="#211844"/>
+      <stop offset="1" stop-color="#32245F"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="440" height="300" rx="19"/></clipPath>
+  </defs>
+  <style>
+    @media (prefers-reduced-motion: no-preference) {
+      .ping { animation: ping 1.6s ease-out 3; }
+      .ping-late { animation-delay: .24s; }
+    }
+    @keyframes ping {
+      0%,100% { opacity: .35; }
+      40% { opacity: 1; }
+    }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="440" height="300" fill="url(#ground)"/>
+    <rect x="18" y="48" width="404" height="200" fill="url(#dots)"/>
+    <path d="M20 45H420M20 253H420" stroke="#645192"/>
+    <text x="23" y="30" fill="#DFFF70" font-family="monospace" font-size="14" font-weight="700" letter-spacing="2">FIELD UNIT / 01</text>
+    <text x="417" y="30" text-anchor="end" fill="#D9CCFF" font-family="monospace" font-size="13">GCS</text>
+
+    <!-- Ground plane and circuit traces -->
+    <ellipse cx="224" cy="222" rx="151" ry="21" fill="#1A1238" opacity=".7"/>
+    <path d="M30 219H96L121 204M353 210L378 224H411M48 236H106M343 234H387M299 60H320L332 72" fill="none" stroke="#7B66B3"/>
+    <circle cx="44" cy="219" r="3" fill="#B59CF4"/>
+    <circle cx="407" cy="224" r="3" fill="#DFFF70"/>
+
+    <!-- Tracker base and status display -->
+    <path d="M93 189L180 161L344 178L366 195L276 226L93 205Z" fill="#7F65C9" stroke="#1A1238" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M93 189L276 208L366 183V198L276 227L93 208Z" fill="#4E398C" stroke="#1A1238" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M127 172L189 149L319 164L338 180L273 202L127 186Z" fill="#C6B0FF" stroke="#1A1238" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M150 179L184 167L235 172L203 184Z" fill="#DFFF70" stroke="#211844" stroke-width="2"/>
+    <circle cx="258" cy="186" r="3" fill="#211844"/><circle cx="269" cy="183" r="3" fill="#211844"/>
+    <path d="M147 194L217 202V212L147 204Z" fill="#211844"/>
+    <path d="M161 200L166 201M174 202L179 203M187 204L194 205" stroke="#DFFF70" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Servo arm and directional antenna -->
+    <path d="M234 163L238 143L221 121L211 127L223 151L219 161Z" fill="#AA91ED" stroke="#1A1238" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M166 102Q171 143 217 147Q249 145 265 111Q222 134 166 102Z" fill="#DFFF70" stroke="#1A1238" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M166 102Q212 73 265 111Q222 134 166 102Z" fill="#F1FFD1" stroke="#1A1238" stroke-width="3"/>
+    <path d="M217 111L237 83" stroke="#211844" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="238" cy="81" r="5" fill="#DFFF70" stroke="#211844" stroke-width="2"/>
+
+    <!-- Radio signal and aircraft -->
+    <g fill="none" stroke="#DFFF70" stroke-width="2" stroke-linecap="round">
+      <path class="ping" d="M249 73Q262 75 265 90"/>
+      <path class="ping ping-late" d="M251 62Q272 64 278 87" opacity=".55"/>
+    </g>
+    <path d="M295 97L374 70L349 95L354 108L340 103L322 117L328 99Z" fill="#C6B0FF" stroke="#211844" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M329 99L374 70" fill="none" stroke="#7258B1" stroke-width="2"/>
+    <path d="M364 101H389M354 112H372" stroke="#8D79BB" stroke-width="1.5" stroke-linecap="round"/>
+
+    <circle cx="27" cy="275" r="4" fill="#DFFF70"/>
+    <text x="39" y="280" fill="#D9CCFF" font-family="monospace" font-size="14" font-weight="700" letter-spacing="1.4">ANTENNA TRACKER</text>
+    <path d="M376 278V273M385 278V268M394 278V263M403 278V258" stroke="#DFFF70" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <rect x="1" y="1" width="438" height="298" rx="18" fill="none" stroke="#8D79BB" stroke-width="2"/>
+</svg>

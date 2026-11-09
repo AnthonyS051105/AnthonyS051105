@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 156" role="img" aria-labelledby="title">
+  <title id="title">Around campus: Gamaforce, Night Login, and KMTETI Workshop</title>
+  <rect x="1" y="1" width="1038" height="154" rx="20" fill="#EAE4FF" stroke="#8D79BB" stroke-width="2"/>
+  <path d="M346 24V132M693 24V132" stroke="#AA98D8"/>
+  <g fill="#32245B">
+    <rect x="28" y="44" width="65" height="65" rx="13"/>
+    <rect x="374" y="44" width="65" height="65" rx="13"/>
+    <rect x="722" y="44" width="65" height="65" rx="13"/>
+  </g>
+  <g fill="none" stroke="#DFFF70" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M42 66Q46 92 68 94Q78 94 82 79Q67 87 42 66ZM61 93V100M51 100H73M60 78L69 65M71 57Q80 59 82 68"/>
+    <path d="M390 72L382 78L390 84M423 72L431 78L423 84M413 65L400 92"/>
+    <path d="M759 57L742 79H755L748 97L769 72H755Z"/>
+  </g>
+  <g fill="#211844" font-family="Arial, 'DejaVu Sans', sans-serif" font-size="28" font-weight="700">
+    <text x="109" y="78">Gamaforce</text>
+    <text x="455" y="78">Night Login</text>
+    <text x="803" y="78">KMTETI</text>
+  </g>
+  <g fill="#513D82" font-family="monospace" font-size="17" font-weight="700" letter-spacing="1">
+    <text x="110" y="102">UAV GROUND STATION</text>
+    <text x="456" y="102">WEB COMMUNITY</text>
+    <text x="804" y="102">WORKSHOPS</text>
+  </g>
+</svg>

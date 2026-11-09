@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1040 70" role="img" aria-labelledby="title">
+  <title id="title">Open Lab online. Web and Android, embedded systems, and computer vision.</title>
+  <style>
+    .line { opacity: 0; }
+    @media (prefers-reduced-motion: no-preference) {
+      .static { animation: settle 9s linear both; }
+      .one { animation: type 3s linear 0s both; }
+      .two { animation: type 3s linear 3s both; }
+      .three { animation: type 3s linear 6s both; }
+    }
+    @keyframes type {
+      0% { opacity: 1; clip-path: inset(0 100% 0 0); animation-timing-function: steps(16, end); }
+      35%, 91% { opacity: 1; clip-path: inset(0); }
+      100% { opacity: 0; clip-path: inset(0); }
+    }
+    @keyframes settle {
+      0%, 99% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+  </style>
+  <rect x="1" y="1" width="1038" height="68" rx="14" fill="#211844" stroke="#7A66AC" stroke-width="2"/>
+  <circle cx="32" cy="35" r="6" fill="#DFFF70"/>
+  <path d="M68 28L77 35L68 42M86 44H96" fill="none" stroke="#DFFF70" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g fill="#F2ECFF" font-family="'Courier New', monospace" font-size="28" font-weight="700">
+    <text class="static" x="111" y="44">Web + Android / Embedded / Vision</text>
+    <text class="line one" x="111" y="44">Building for web and Android</text>
+    <text class="line two" x="111" y="44">Debugging the bench</text>
+    <text class="line three" x="111" y="44">Teaching on campus</text>
+  </g>
+  <text x="1006" y="42" text-anchor="end" fill="#C9BDF2" font-family="'Courier New', monospace" font-size="18" font-weight="700" letter-spacing="1.5">LAB ONLINE</text>
+</svg>

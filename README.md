@@ -1,52 +1,96 @@
-# Yohanes Anthony Saputra
+<h1 align="center">Yohanes Anthony Saputra</h1>
 
-![Anthony’s Open Lab. An exploded illustration of a circuit board, chip, and browser window.](./assets/cover.svg)
+<p align="center">
+  <img src="./assets/cover.svg" width="100%" alt="Anthony’s Open Lab. An exploded view of a circuit board, chip, and browser window." />
+</p>
 
-## Hey, I’m Anthony 👋
+<p align="center">
+  <img src="./assets/status-line.svg" width="100%" alt="Open Lab online. Web and Android, embedded systems, and computer vision." />
+</p>
 
-I study Information Technology at **Universitas Gadjah Mada** in Yogyakarta. I build web and Android apps, write ESP32 firmware, and teach on campus. My favorite part is following a sensor reading all the way from the serial monitor to a screen someone can use.
+<p align="center">
+  <a href="https://anthony-saputra.vercel.app/"><img src="./assets/portfolio-link.svg" width="149" alt="Visit my portfolio" /></a>
+  &nbsp;
+  <a href="https://github.com/AnthonyS051105?tab=repositories"><img src="./assets/repos-link.svg" width="149" alt="Browse my repositories" /></a>
+</p>
 
-[Campus life](#around-campus) · [Try the bench check](#bench-check) · [GitHub activity](https://github.com/AnthonyS051105#js-contribution-activity)
+## About me 👋
 
-## Around campus
+I’m Anthony, an Information Technology student at **Universitas Gadjah Mada** in Yogyakarta. I like working on both ends of a system, from the ESP32 collecting a reading to the web or Android screen someone uses to make sense of it. I also teach Arduino and web development on campus.
 
-- **[Gamaforce](https://gamaforce.wg.ugm.ac.id/khageswara/khageswara-ground-control-station-2024/)** · I write firmware for a UAV ground station. I use GPS and orientation readings to steer the antenna in yaw and pitch.
-- **Night Login Web Development Community** · I teach web development and mentor members as they build their own web projects.
-- **[KMTETI Workshop](https://kmteti.org/divisi/workshop)** · I teach Arduino and ESP32 and work on the workshop registration site. At DTETI Open House, I ran a session on building a portfolio page for high school students.
+<table>
+<tr>
+<td width="50%" valign="middle">
 
-💬 **Ask me about** debugging an ESP32 sensor, getting MQTT readings into an app, or wiring your first Arduino circuit.
+```ts
+const anthony = {
+  base: "Yogyakarta",
+  campus: "UGM",
+  build: [
+    "Web & Android",
+    "Embedded & IoT",
+    "Computer vision",
+  ],
+  also: "Teaching",
+};
+```
 
-## Bench check
+</td>
+<td width="50%" align="center" valign="middle">
+  <img src="./assets/lab-buddy.svg" width="390" alt="An illustrated Open Lab ground station with a small antenna tracker and an aircraft in radio range." />
+</td>
+</tr>
+</table>
 
-![Bench check 01. Current heading 359 degrees. Target heading 001 degrees.](./assets/bench-check.svg)
+**Ask me about** bringing ESP32 readings into an app, debugging a sensor, or helping someone wire their first Arduino circuit.
 
-An antenna tracker is pointing at **359°** and the target is at **1°**. What’s the shortest turn?
+## Around campus 🛰️
+
+![Gamaforce Ground Station, Night Login Web Community, and KMTETI Workshops](./assets/campus.svg)
+
+- **[Gamaforce](https://gamaforce.wg.ugm.ac.id/khageswara/khageswara-ground-control-station-2024/)** · I work on firmware for a UAV ground station. The antenna tracker uses GPS and orientation readings to steer in yaw and pitch.
+- **Night Login Web Development Community** · I teach web development and mentor members as they build their own projects.
+- **[KMTETI Workshop](https://kmteti.org/divisi/workshop)** · I teach Arduino and ESP32 and work on the workshop registration site. At DTETI Open House, I taught high school students how to build a portfolio page.
 
 <details>
-<summary>Reveal the answer</summary>
+<summary><b>Try a bench check</b> · The antenna is at 359° and the target is at 1°. Which way should it turn?</summary>
 
-**2° clockwise, through north.** A direct subtraction gives −358°. Wrap that difference into the range from −180° up to 180°, and the result is +2°. That’s the heading correction you want before deciding what to tell the motor.
+![Bench check. Current heading 359 degrees. Target heading 001 degrees.](./assets/bench-check.svg)
+
+**2° clockwise, through north.** A direct subtraction gives −358°. Wrap the difference into [−180°, 180°) before mapping the correction to a servo command.
 
 </details>
 
-## Tools I reach for
+## Tech stack 🧰
 
-**Web & APIs** · `TypeScript` `React` `Next.js` `Flask` `FastAPI`  
-**Android** · `Kotlin` `Jetpack Compose`  
-**Embedded & IoT** · `C++` `ESP32` `FreeRTOS` `MQTT`  
-**Computer vision** · `Python` `PyTorch` `OpenCV`
+<p align="center">
+  <img src="./assets/stack/web.svg" width="370" alt="Web and APIs. TypeScript, React, Next.js, and FastAPI." />
+  <img src="./assets/stack/android.svg" width="370" alt="Android. Kotlin, Jetpack Compose, and Firebase." />
+  <img src="./assets/stack/embedded.svg" width="370" alt="Embedded and IoT. C++, Arduino, ESP32, and MQTT." />
+  <img src="./assets/stack/vision.svg" width="370" alt="Computer vision. Python, PyTorch, and OpenCV." />
+</p>
 
-## Milestones
+## GitHub telemetry 📡
 
-- **[KRTI 2025](https://ugm.ac.id/en/news/gamaforce-ugm-wins-8th-overall-title-at-indonesias-flying-robot-contest-2025/)** · Overall Champion with the Gamaforce team.
-- **Bootcamp TETI 2026** · 1st place in Mobile Development with GreenHouse+.
-- **GEMASTIK XIX** · Finalist in Smart Devices, Embedded Systems, and IoT with PNEUMACARE.
+[![Open Lab GitHub telemetry](./assets/telemetry.svg)](https://github.com/AnthonyS051105#js-contribution-activity)
 
-## Selected repositories
+[View my contribution history on GitHub](https://github.com/AnthonyS051105#js-contribution-activity)
 
-- **PNEUMACARE** · Wearable respiratory monitoring prototype. [Software](https://github.com/AnthonyS051105/pneumacare-software) · [Firmware](https://github.com/AnthonyS051105/pneumacare-hardware)
-- **UNSTOPPABLE** · A route planner for older adults. [Source](https://github.com/AnthonyS051105/unstoppable) · [Try the demo](https://unstoppable-mu.vercel.app)
-- **GreenHouse+** · Greenhouse monitoring and control. [Android app](https://github.com/AnthonyS051105/smart-greenhouse-mobile) · [Firmware](https://github.com/AnthonyS051105/smart-greenhouse-iot)
-- **NETRA** · Road damage detection and depth estimation. [Computer vision pipeline](https://github.com/AnthonyS051105/pothole-detector)
+## Selected work
 
-[Browse all repositories](https://github.com/AnthonyS051105?tab=repositories)
+| Project | What I worked on | Explore |
+| --- | --- | --- |
+| **PNEUMACARE** | ESP32 firmware and web software for a wearable respiratory monitoring prototype. | [Software](https://github.com/AnthonyS051105/pneumacare-software) · [Firmware](https://github.com/AnthonyS051105/pneumacare-hardware) |
+| **UNSTOPPABLE** | Project coordination and frontend development for a route planner for older adults. | [Source](https://github.com/AnthonyS051105/unstoppable) · [Demo](https://unstoppable-mu.vercel.app) |
+| **GreenHouse+** | Firmware, backend, and Android screens for greenhouse monitoring and control. | [Android](https://github.com/AnthonyS051105/smart-greenhouse-mobile) · [Firmware](https://github.com/AnthonyS051105/smart-greenhouse-iot) |
+| **NETRA** | A computer vision pipeline for road damage detection and depth estimation. | [Source](https://github.com/AnthonyS051105/pothole-detector) |
+
+**Milestones** · [KRTI 2025 overall champion with Gamaforce](https://ugm.ac.id/en/news/gamaforce-ugm-wins-8th-overall-title-at-indonesias-flying-robot-contest-2025/) · Bootcamp TETI 2026 Mobile Development winner with GreenHouse+ · GEMASTIK XIX finalist with PNEUMACARE
+
+---
+
+<p align="center">
+  <sub>Thanks for stopping by Open Lab.</sub>
+  <br />
+  <a href="https://anthony-saputra.vercel.app/">Portfolio</a> · <a href="https://github.com/AnthonyS051105?tab=repositories">Repositories</a>
+</p>
